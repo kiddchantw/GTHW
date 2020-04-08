@@ -7,7 +7,24 @@
 # 問題
 - Q1: 請說明
     1. 什麼是版本控制系統？
+	版本控制可記錄檔案內容變化，並且能夠查詢每個版本所更動內容。確保在軟體開發的過程，由不同人所編輯的同一程式檔案都得到同步。
+
     2. Git 版本控制中有哪幾種檔案狀態？
+
+	不確定是指這四種狀態
+
+	- untracked files ( 未追蹤 )
+	- changes not staged for commit （已更改）
+	- changes to be committed （等待提交）
+	- committed (已提交)
+
+	還是位在不同區域以下四種區域的git檔案狀態
+
+	- working directory  ( 工作資料夾）
+	- staging area (暫存區)
+	- local repo (本地端檔案庫)
+	- remote repo （遠端檔案庫）
+
 
 ![](https://i.imgur.com/hZoDAPf.png)
 - Q2: 上圖 A-J 是 Git 中檔案狀態切換得流程，請查出 A-J 執行的指令。(重點是確保自己真的學到在什麼情況下使用該指令。)
