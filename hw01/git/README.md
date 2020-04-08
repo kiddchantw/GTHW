@@ -7,7 +7,7 @@ https://github.com/SoJ0825/backendtraining-t1.git# 前言:
 # 問題
 - Q1: 請說明
     1. 什麼是版本控制系統？
-	版本控制可記錄檔案內容變化，並且能夠查詢每個版本所更動內容。確保在軟體開發的過程，由不同人所編輯的同一程式檔案都得到同步。
+    版本控制可記錄檔案內容變化，並且能夠查詢每個版本所更動內容。確保在軟體開發的過程，由不同人所編輯的同一程式檔案都得到同步。
 
     2. Git 版本控制中有哪幾種檔案狀態？
 
@@ -30,34 +30,25 @@ https://github.com/SoJ0825/backendtraining-t1.git# 前言:
 
 ![](https://i.imgur.com/hZoDAPf.png)
 - Q2: 上圖 A-J 是 Git 中檔案狀態切換得流程，請查出 A-J 執行的指令。(重點是確保自己真的學到在什麼情況下使用該指令。)
-	- A: 將一般目錄變成 git working folder 
- 	git init
- 
+    - A: 將一般目錄變成 git working folder
+        git init
 	- B: 將 working folder 的異動狀態登錄到 stage 
- 	git add
-	 
+        git add
 	- C: 將 stage 的狀態放到 local repository 
-	 git commit 
-	 
+	   git commit 
 	- D: 將 local repository 的狀態放到 remote repository 
 	 git push
-	 
 	- E: 將 remote repository 的狀態取回到 local repository 
 	 git fetch
-	 
 	- F: 將 local repository 的狀態退回到 stage 階段（是 C 的逆向）
 	 git reset
-	 
 	- G: 將 stage 的狀態退回到 working folder 階段（是 B 的逆向） 
 	 git check out 
-	 
-	- H: 將 local repository 的狀態一口氣退回到 working folder 階段（是 B+C 的逆向） 
+	 - H: 將 local repository 的狀態一口氣退回到 working folder 階段（是 B+C 的逆向） 
 	 git revert
-	 
-	- I: 從 remote repository 取回建立成新的 working folder 
+	 - I: 從 remote repository 取回建立成新的 working folder 
 	git pull
-
-	- J: 將 git working folder 變回一般目錄
+    - J: 將 git working folder 變回一般目錄
 	git rm
 
 
