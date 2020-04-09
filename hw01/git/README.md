@@ -70,3 +70,14 @@ https://github.com/SoJ0825/backendtraining-t1.git# 前言:
 - Q3. 做這個題目，你事前評估做了什麼、利用了哪些資源、排程為何、事後怎麼驗收、得到什麼經驗？
 
 
+	1.事情評估與找資源：
+	- google相關英文keyword
+	- 確認自己的學習紀錄有無相關的實作經驗
+
+	2.排程與驗收：
+	- 透過建立檔案、刪除檔案、移動檔案來檢查A~J
+	- 待確認：F、G
+
+	3.得到什麼經驗；
+	- 編輯器的問題：本想練習用 vim 編輯 local repo的 readme.md ，發現markdown 語法上傳github會跑版。自己慣用的 sublime 無法正常啟動 markdown 顯示外掛，最後使用 vscode 解決排版問題。
+	- git 順序的問題：一開始先在local建立主目錄後沒git init，在子目錄（hw01）放在git clone 導致後來上傳時 github  跳出 git Submodule 的警示（但自己也沒修正成功）。後來整個folder砍掉重新在主目錄git init後問題才解決。
